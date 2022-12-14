@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  app:
+    container_name: springbootapp
+    build: ./
+    ports:
+      - '8080:8080'
